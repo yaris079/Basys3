@@ -1,14 +1,8 @@
 # Basys3
 Xilinx-Digilent-Baysy3
 
---Basys3-master
-----Library
-------74LSXX_LIB
-------Interface
-------XUP_LIB
-----Projects
-------Logic_Design
---------CN_Design
---------SN_Design
-----quickstart_guide.pdf
-----README.md
+This file contains Basys 3 Artix-7 User Manual and Schematic Diagram.It also include some official demo.
+
+In Basys3_master,this repository provides Digital Design Libraries and Projects for Vivado IP.
+
+The board features an Artix series 7 Xilinx FPGA and is an ideal platform for low cost teaching and student projects.
