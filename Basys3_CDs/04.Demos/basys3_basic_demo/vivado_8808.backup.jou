@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# Vivado v2014.3 (64-bit)
+# SW Build 1034051 on Fri Oct  3 17:18:25 MDT 2014
+# IP Build 1028902 on Fri Sep 26 17:35:13 MDT 2014
+# Start of session at: Wed Jul 06 09:56:13 2016
+# Process ID: 8808
+# Log file: D:/资料软件/basys3/Basys3_CDs/04.Demos/basys3_basic_demo/vivado.log
+# Journal file: D:/资料软件/basys3/Basys3_CDs/04.Demos/basys3_basic_demo\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project -read_only D:/资料软件/basys3/Basys3_CDs/04.Demos/basys3_basic_demo/basys3_basic_demo.xpr

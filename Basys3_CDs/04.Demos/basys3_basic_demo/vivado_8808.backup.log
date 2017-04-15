@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2014.3 (64-bit)
+# SW Build 1034051 on Fri Oct  3 17:18:25 MDT 2014
+# IP Build 1028902 on Fri Sep 26 17:35:13 MDT 2014
+# Start of session at: Wed Jul 06 09:56:13 2016
+# Process ID: 8808
+# Log file: D:/资料软件/basys3/Basys3_CDs/04.Demos/basys3_basic_demo/vivado.log
+# Journal file: D:/资料软件/basys3/Basys3_CDs/04.Demos/basys3_basic_demo\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project -read_only D:/资料软件/basys3/Basys3_CDs/04.Demos/basys3_basic_demo/basys3_basic_demo.xpr
+INFO: [Project 1-313] Project file moved from 'C:/sam_work/final_projects/basys3_basic_demo' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/资料软件/basys3/Basys3_CDs/testruns/basys3_man_test/basys3_basic_demo/basys3_basic_demo.ioplanning/constrs_1/designprops.xml', nor could it be found using path 'C:/sam_work/testruns/basys3_man_test/basys3_basic_demo/basys3_basic_demo.ioplanning/constrs_1/designprops.xml'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/资料软件/basys3/Basys3_CDs/testruns/basys3_man_test/basys3_basic_demo/basys3_basic_demo.ioplanning/constrs_1/usercols.xml', nor could it be found using path 'C:/sam_work/testruns/basys3_man_test/basys3_basic_demo/basys3_basic_demo.ioplanning/constrs_1/usercols.xml'.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-509] GeneratedRun file for 'synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'clk_wiz_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'impl_1' not found
+WARNING: [Project 1-229] Project 'basys3_basic_demo.xpr' is read-only and therefore could not be upgraded for this version of Vivado.  Use 'File | Save Project As...' if you wish to save an upgraded copy.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Program2/Xilinx/Vivado/2014.3/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'clk_wiz_0' is locked:
+* Project containing IP 'clk_wiz_0' is read-only.
+* IP definition 'Clocking Wizard (5.1)' for IP 'clk_wiz_0' has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jul 06 09:57:27 2016...

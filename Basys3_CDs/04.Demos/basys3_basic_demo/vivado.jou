@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Sun Jan 29 16:15:34 2017
+# Process ID: 4492
+# Current directory: C:/Users/zhangwei/Desktop/创客/basys3/digilent论坛资料/Basys3_CDs/04.Demos/basys3_basic_demo
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12756 C:\Users\zhangwei\Desktop\创客\basys3\digilent论坛资料\Basys3_CDs\04.Demos\basys3_basic_demo\basys3_basic_demo.xpr
+# Log file: C:/Users/zhangwei/Desktop/创客/basys3/digilent论坛资料/Basys3_CDs/04.Demos/basys3_basic_demo/vivado.log
+# Journal file: C:/Users/zhangwei/Desktop/创客/basys3/digilent论坛资料/Basys3_CDs/04.Demos/basys3_basic_demo\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/zhangwei/Desktop/Vivado/basys3/Dff/Dff.xpr
+open_hw
+disconnect_hw_server localhost:3121
+connect_hw_server -url localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210183741339A]
+set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210183741339A]
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/zhangwei/Desktop/Vivado/basys3/Dff/Dff.runs/impl_2/Dff.bin} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+create_hw_cfgmem -hw_device [lindex [get_hw_devices] 0] -mem_dev [lindex [get_cfgmem_parts {s25fl032p-spi-x1_x2_x4}] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/zhangwei/Desktop/GPIO_demo.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
