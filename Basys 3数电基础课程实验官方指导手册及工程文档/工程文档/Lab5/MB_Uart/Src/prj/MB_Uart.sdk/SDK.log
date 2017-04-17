@@ -1,0 +1,83 @@
+23:41:07 INFO  : Launching XSDB server: xsdb.bat -interactive D:\Digilent\HIT_summer\B3_workshop\Lab5\MB_Uart\Src\prj\MB_Uart.sdk\temp_xsdb_launch_script.tcl
+23:41:13 INFO  : XSDB server has started successfully.
+23:41:20 INFO  : Processing command line option -hwspec d:/Digilent/HIT_summer/B3_workshop/Lab5/MB_Uart/Src/prj/MB_Uart.sdk/design_1_wrapper.hdf.
+23:45:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:45:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183794617A" && level==0} -index 0' command is executed.
+23:45:30 INFO  : FPGA configured successfully with bitstream "D:/Digilent/HIT_summer/B3_workshop/Lab5/MB_Uart/Src/prj/MB_Uart.sdk/design_1_wrapper_hw_platform_0/download.bit"
+23:46:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183794617A" && level==0} -index 0' command is executed.
+23:46:46 INFO  : 'fpga -state' command is executed.
+23:46:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:46:47 INFO  : Context for processor 'microblaze_0' is selected.
+23:46:47 INFO  : Hardware design information is loaded from 'D:/Digilent/HIT_summer/B3_workshop/Lab5/MB_Uart/Src/prj/MB_Uart.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+23:46:48 INFO  : Context for processor 'microblaze_0' is selected.
+23:46:48 INFO  : Processor reset is completed for 'microblaze_0'.
+23:46:48 INFO  : Context for processor 'microblaze_0' is selected.
+23:46:49 INFO  : The application 'D:/Digilent/HIT_summer/B3_workshop/Lab5/MB_Uart/Src/prj/MB_Uart.sdk/helloworld/Debug/helloworld.elf' is downloaded to processor 'microblaze_0'.
+23:46:49 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Basys3 210183794617A"} -index 0
+loadhw D:/Digilent/HIT_summer/B3_workshop/Lab5/MB_Uart/Src/prj/MB_Uart.sdk/design_1_wrapper_hw_platform_0/system.hdf
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Basys3 210183794617A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Basys3 210183794617A"} -index 0
+dow D:/Digilent/HIT_summer/B3_workshop/Lab5/MB_Uart/Src/prj/MB_Uart.sdk/helloworld/Debug/helloworld.elf
+----------------End of Script----------------
+
+23:46:49 INFO  : Memory regions updated for context MicroBlaze #0
+23:46:50 INFO  : Context for processor 'microblaze_0' is selected.
+23:46:50 INFO  : 'con' command is executed.
+23:46:50 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Basys3 210183794617A"} -index 0
+con
+----------------End of Script----------------
+
+23:47:33 INFO  : Disconnected from the channel tcfchan#1.
+23:47:34 INFO  : Processor reset is completed for microblaze_0
+23:48:15 INFO  : Processor reset is completed for microblaze_0
+23:51:44 INFO  : Processor reset is completed for microblaze_0
+23:52:41 INFO  : Processor reset is completed for microblaze_0
+23:53:40 INFO  : Processor reset is completed for microblaze_0
+23:54:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:54:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183794617A" && level==0} -index 0' command is executed.
+23:54:46 INFO  : FPGA configured successfully with bitstream "D:/Digilent/HIT_summer/B3_workshop/Lab5/MB_Uart/Src/prj/MB_Uart.sdk/design_1_wrapper_hw_platform_0/download.bit"
+23:54:57 INFO  : Processor reset is completed for microblaze_0
+23:55:14 INFO  : Processor reset is completed for microblaze_0
+23:55:54 INFO  : Processor reset is completed for microblaze_0
+23:56:31 INFO  : Processor reset is completed for microblaze_0
+23:56:37 ERROR : Port COM16 is already in use.
+23:57:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:57:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183794617A" && level==0} -index 0' command is executed.
+23:57:39 INFO  : FPGA configured successfully with bitstream "D:/Digilent/HIT_summer/B3_workshop/Lab5/MB_Uart/Src/prj/MB_Uart.sdk/design_1_wrapper_hw_platform_0/download.bit"
+23:58:19 INFO  : Processor reset is completed for microblaze_0
+23:58:24 ERROR : Port COM16 is already in use.
+23:58:39 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:35:56 INFO  : Launching XSDB server: xsdb.bat -interactive D:\Digilent\HIT_summer\B3_workshop\Lab5\MB_Uart\Src\prj\MB_Uart.sdk\temp_xsdb_launch_script.tcl
+11:36:00 INFO  : XSDB server has started successfully.
+11:36:05 INFO  : Processing command line option -hwspec D:/Digilent/HIT_summer/B3_workshop/Lab5/MB_Uart/Src/prj/MB_Uart.sdk/design_1_wrapper.hdf.
+15:40:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:40:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183794617A" && level==0} -index 0' command is executed.
+15:40:14 INFO  : FPGA configured successfully with bitstream "D:/Digilent/HIT_summer/B3_workshop/Lab5/MB_Uart/Src/prj/MB_Uart.sdk/design_1_wrapper_hw_platform_0/download.bit"
+15:40:57 INFO  : Processor reset is completed for microblaze_0
+15:41:07 ERROR : Port COM16 is already in use.
+15:42:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:42:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183794617A" && level==0} -index 0' command is executed.
+15:42:32 INFO  : FPGA configured successfully with bitstream "D:/Digilent/HIT_summer/B3_workshop/Lab5/MB_Uart/Src/prj/MB_Uart.sdk/design_1_wrapper_hw_platform_0/download.bit"
+15:42:47 INFO  : Processor reset is completed for microblaze_0
+15:42:53 ERROR : Port COM16 is already in use.
+15:44:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:44:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183794617A" && level==0} -index 0' command is executed.
+15:44:05 INFO  : FPGA configured successfully with bitstream "D:/Digilent/HIT_summer/B3_workshop/Lab5/MB_Uart/Src/prj/MB_Uart.sdk/design_1_wrapper_hw_platform_0/download.bit"
+15:45:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:45:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183794617A" && level==0} -index 0' command is executed.
+15:45:37 INFO  : FPGA configured successfully with bitstream "D:/Digilent/HIT_summer/B3_workshop/Lab5/MB_Uart/Src/prj/MB_Uart.sdk/design_1_wrapper_hw_platform_0/download.bit"
+15:45:48 INFO  : Processor reset is completed for microblaze_0
+15:45:55 ERROR : Port COM16 is already in use.
+15:46:53 INFO  : Processor reset is completed for microblaze_0
+15:48:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:48:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183794617A" && level==0} -index 0' command is executed.
+15:48:07 INFO  : FPGA configured successfully with bitstream "D:/Digilent/HIT_summer/B3_workshop/Lab5/MB_Uart/Src/prj/MB_Uart.sdk/design_1_wrapper_hw_platform_0/download.bit"
+15:48:28 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:48:50 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:49:03 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:49:06 INFO  : Processor reset is completed for microblaze_0
+15:51:35 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# 
+# Start of session at: Sat Jul 16 15:51:32 2016
+# Process ID: 11616
+# Current directory: D:/Digilent/HIT_summer/B3_workshop/Lab5/MB_Uart/Src/prj/MB_Uart.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: D:/Digilent/HIT_summer/B3_workshop/Lab5/MB_Uart/Src/prj/MB_Uart.sdk/webtalk/webtalk.log
+# Journal file: D:/Digilent/HIT_summer/B3_workshop/Lab5/MB_Uart/Src/prj/MB_Uart.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

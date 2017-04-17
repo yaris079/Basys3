@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Fri Feb 03 23:35:48 2017
+# Process ID: 1984
+# Current directory: C:/Users/zhangwei/Desktop/创客/basys3/Basys 3数电基础课程实验官方指导手册及工程文档/工程文档/Lab5/MB_Uart/Src/prj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7480 C:\Users\zhangwei\Desktop\创客\basys3\Basys 3数电基础课程实验官方指导手册及工程文档\工程文档\Lab5\MB_Uart\Src\prj\MB_Uart.xpr
+# Log file: C:/Users/zhangwei/Desktop/创客/basys3/Basys 3数电基础课程实验官方指导手册及工程文档/工程文档/Lab5/MB_Uart/Src/prj/vivado.log
+# Journal file: C:/Users/zhangwei/Desktop/创客/basys3/Basys 3数电基础课程实验官方指导手册及工程文档/工程文档/Lab5/MB_Uart/Src/prj\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/zhangwei/Desktop/创客/basys3/Basys 3数电基础课程实验官方指导手册及工程文档/工程文档/Lab5/MB_Uart/Src/prj/MB_Uart.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/zhangwei/Desktop/创客/basys3/Basys 3数电基础课程实验官方指导手册及工程文档/工程文档/Lab5/MB_Uart/Src/prj'
+INFO: [Project 1-313] Project file moved from 'D:/Digilent/HIT_summer/B3_workshop/Lab5/MB_Uart/Src/prj' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [Project 1-230] Project 'MB_Uart.xpr' upgraded for this version of Vivado.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.3/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'design_1.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+design_1_lmb_bram_0
+design_1_mdm_1_0
+design_1_axi_uartlite_0_0
+design_1_ilmb_v10_0
+design_1_dlmb_bram_if_cntlr_0
+design_1_clk_wiz_0_0
+design_1_microblaze_0_0
+design_1_dlmb_v10_0
+design_1_ilmb_bram_if_cntlr_0
+design_1_rst_clk_wiz_1_100M_0
+
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:16 . Memory (MB): peak = 777.828 ; gain = 164.508
+report_ip_status -name ip_status 
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Feb 03 23:58:07 2017...
