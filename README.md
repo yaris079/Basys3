@@ -1,5 +1,5 @@
 # Basys3
-Xilinx-Digilent-Baysy3
+Xilinx-Digilent-Basys3
 
 This file contains Basys 3 Artix-7 User Manual and Schematic Diagram.It also include some official demo.
 
